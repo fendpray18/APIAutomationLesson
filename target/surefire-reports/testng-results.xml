@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UsersSuite" duration-ms="4963" started-at="2022-06-10T15:49:13Z" finished-at="2022-06-10T15:49:18Z">
+    <groups>
+    </groups>
+    <test name="UsersTest" duration-ms="4963" started-at="2022-06-10T15:49:13Z" finished-at="2022-06-10T15:49:18Z">
+      <class name="users.SingleUserTest">
+        <test-method status="PASS" signature="successSingleUserTest(org.testng.ITestContext)[pri:0, instance:users.SingleUserTest@6574b225]" name="successSingleUserTest" duration-ms="440" started-at="2022-06-10T15:49:18Z" finished-at="2022-06-10T15:49:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@464bee09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successSingleUserTest -->
+      </class> <!-- users.SingleUserTest -->
+      <class name="users.ListUsersTest">
+        <test-method status="PASS" signature="succesListUsersTest(org.testng.ITestContext)[pri:0, instance:users.ListUsersTest@5056dfcb]" name="succesListUsersTest" duration-ms="4476" started-at="2022-06-10T15:49:13Z" finished-at="2022-06-10T15:49:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@464bee09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- succesListUsersTest -->
+      </class> <!-- users.ListUsersTest -->
+    </test> <!-- UsersTest -->
+  </suite> <!-- UsersSuite -->
+</testng-results>
